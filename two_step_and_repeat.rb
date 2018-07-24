@@ -1,6 +1,30 @@
 def first_steps
+  def steps 
+    step == 1
+    if step == 1
+      puts "Right foot back"
+      sleep(0.5)
+    elsif step == 2
+      puts "Left foot back"
+      sleep(0.5)
+    elsif step == 3 
+      puts "Right foot back"
+      sleep(0.5)
+    elsif step == 4 
+      puts "Stop"
+      sleep(0.5)
+
+  end
+end 
+first_steps 
+  
+  
+  
+  
   # Write a loop that outputs "Right foot back", "Left foot back",
   # "Right foot back", and "Stop", with sleep after each
+  
+  
 end
 
 def a_few_more_steps
